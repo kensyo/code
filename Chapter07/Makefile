@@ -38,7 +38,7 @@ OBJ_DIR	:= build
 SRC_DIR	:= .
 
 # no make dirctories(with %) or files
-NO_MAKE_PATH := ./fmodstudioapi10921linux/api/%
+NO_MAKE_PATH := 
 
 # exceptional sources(which are compiled)
 EXEPTIONAL_SOURCES := #library/lib/lodepng/lodepng.cpp
