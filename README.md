@@ -23,6 +23,11 @@ On Windows, install FMOD to the default directory. On Mac, copy the contents
 of the FMOD package into External/FMOD.
 
 # PostScript of the Forker
+
+## Target OS and Compiler
+OS: Arch Linux
+Compiler: gcc
+
 ## Requirements For Arch Linux
 ### Chap1 and beyond
 ```
