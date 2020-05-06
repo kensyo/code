@@ -30,7 +30,9 @@ sudo pacman -S sdl2 sdl2_gfx sdl2_image sdl2_mixer sdl2_net sdl2_ttf
 
 ## Chap5
 ```
-sudo pacman -S SOIL
+sudo pacman -S SOIL glfw-x11 glew
+# if you use wayland instead of X, you might
+install `glfw-wayland` and `glew-wayland`, not `glfw-x11` and `glew`
 ```
 
 ## Chap6
