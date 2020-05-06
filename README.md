@@ -78,11 +78,10 @@ if you want to build them in release mode.
 
 ## Remarks
 1. Unnecessary libraries may be included in each makefile in ChapterXX.
-
-This fork is for my study.
+   This fork is for my study.
 
 2. The Chapter12 and 13 programs can be built and run, but can not be performed properly in my environment.  
-
-The Chapter13 and 14 programs might not be able to be run depending on your machine.
+   
+3. The Chapter13 and 14 programs might not be able to be run depending on your machine.
 In fact, my laptop machine could run neither of the programs because they failed to create g-buffer,
 but my desktop one with higher spec can run both and the Chapter14 program is performed maybe perfectly while the Chapter13 one is ill-performed.
