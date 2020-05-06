@@ -47,7 +47,24 @@ sudo pacman -S rapidjson
 tar -xzf fmodstudioapi10921linux.tar.gz
 ```
 Then you would get the directory named fmodstudioapi10921linux in the current directory.
+
 3. 
+
 ```
 mv fmodstudioapi10921linux {path to the repository directory}/Chapter07
+```
+
+NOTE: When you build the codes, you may see some error codes like 
+```
+/usr/bin/ld: fmodstudioapi10921linux/api/lowlevel/lib/x86_64/libfmod.so: .dynsym local symbol at index 2 (>= sh_info of 2)
+```
+.
+
+These messages are warnings.
+
+Refer to https://stackoverflow.com/questions/59915966/unknown-gcc-linker-error-but-builds-sucessfully 
+
+### Chap9
+```
+cp -r {path to the repository directory}/Chapter07/fmodstudioapi10921linux {path to the repository directory}/Chapter09
 ```
