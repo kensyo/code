@@ -63,3 +63,29 @@ NOTE: When you build the codes, you may see some error codes like
 These messages are warnings.
 
 Refer to https://stackoverflow.com/questions/59915966/unknown-gcc-linker-error-but-builds-sucessfully 
+
+## How to Execute The Programs
+Run after you move to ChapterXX directory,
+```
+make run
+```
+, or
+```
+make run_release
+```
+if you want to build them in release mode.
+
+
+## Remarks
+1. 
+
+Unnecessary libraries may be included in each makefile in ChapterXX.
+
+This fork is for my study.
+
+2.
+
+Chapter12 and 13 programs can be built and run, but can not be performed properly in my environment.  
+
+Chapter13 and 14 programs might not be able to be run depending on your machine.
+In fact, my laptop machine couldn't run the programs but my desktop one with higher spec can.

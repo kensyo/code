@@ -8,7 +8,7 @@ DEBUG_CFLAGS	:= -Wall -g -std=c++17
 RELEASE_CFLAGS	:= -Wall -O2 -std=c++17 -DNDEBUG
 
 # link options
-LFLAGS 	:= -lSDL2 -lSDL2_image -lpng16 -llua -lGL -lGLEW -lglfw -lXi -lXrandr -lXxf86vm -lX11 -lrt -lm -lSOIL
+LFLAGS 	:= -lSDL2 -lSDL2_image -lpng16 -lGL -lGLEW -lglfw -lXi -lXrandr -lXxf86vm -lX11 -lrt -lm -lSOIL
 
 # made execution file (debug)
 DEBUG_TARGET 	:= debug.out
