@@ -86,10 +86,10 @@ clean:
 run: run_debug;
 
 run_debug: debug
-	LD_LIBRARY_PATH=akabeko ./$(DEBUG_TARGET)
+	./$(DEBUG_TARGET)
 
 run_release: release
-	LD_LIBRARY_PATH=akabeko ./$(RELEASE_TARGET)
+	./$(RELEASE_TARGET)
 
 -include $(DEBUG_DEPENDENCIES) $(RELEASE_DEPENDENCIES) 
 
