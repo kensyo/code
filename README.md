@@ -89,4 +89,4 @@ if you want to build them in release mode.
    
 3. The Chapter13 and 14 programs might not be able to be run depending on your machine.
 In fact, my laptop machine could run neither of the programs because they failed to create g-buffer,
-but my desktop one with higher spec can run both and the Chapter14 program is performed maybe perfectly while the Chapter13 one is ill-performed.
+but my desktop one with higher spec can run both and the Chapter14 program is performed maybe perfectly while the Chapter13 one is still ill-performed.
