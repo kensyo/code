@@ -17,7 +17,7 @@ DEBUG_TARGET 	:= debug.out
 RELEASE_TARGET 	:= release.out
 
 # fmodstudioapi directory
-FMOD := fmodstudioapi10921linux
+FMOD := ../fmodstudioapi10921linux
 
 # include directory
 INCLUDE := -I $(FMOD)/api/fsbank/inc -I $(FMOD)/api/studio/inc -I $(FMOD)/api/lowlevel/inc

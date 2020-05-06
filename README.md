@@ -24,23 +24,23 @@ of the FMOD package into External/FMOD.
 
 # PostScript of the Forker
 ## Requirements For Arch Linux
-### Chap1
+### Chap1 and beyond
 ```
 sudo pacman -S sdl2 sdl2_gfx sdl2_image sdl2_mixer sdl2_net sdl2_ttf
 ```
 
-### Chap5
+### Chap5 and beyond
 ```
 sudo pacman -S SOIL glfw-x11 glew
 ```
 NOTE: if you use wayland instead of X, you might install `glfw-wayland` and `glew-wayland`, not `glfw-x11` and `glew`
 
-### Chap6
+### Chap6 and beyond
 ```
 sudo pacman -S rapidjson
 ```
 
-### Chap7
+### Chap7 and beyond
 1. Download ver1.09.21 `fmodstudioapi` for Linux from https://www.fmod.com/download.
 2. Extract the downloaded file `fmodstudioapi10921linux.tar.gz`, like
 ```
@@ -51,7 +51,7 @@ Then you would get the directory named fmodstudioapi10921linux in the current di
 3. 
 
 ```
-mv fmodstudioapi10921linux {path to the repository directory}/Chapter07
+mv fmodstudioapi10921linux {path to the repository directory}
 ```
 
 NOTE: When you build the codes, you may see some error codes like 
@@ -63,8 +63,3 @@ NOTE: When you build the codes, you may see some error codes like
 These messages are warnings.
 
 Refer to https://stackoverflow.com/questions/59915966/unknown-gcc-linker-error-but-builds-sucessfully 
-
-### Chap9
-```
-cp -r {path to the repository directory}/Chapter07/fmodstudioapi10921linux {path to the repository directory}/Chapter09
-```
