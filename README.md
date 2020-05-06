@@ -26,6 +26,7 @@ of the FMOD package into External/FMOD.
 
 ## Target OS and Compiler
 OS: Arch Linux
+
 Compiler: gcc
 
 ## Requirements For Arch Linux
